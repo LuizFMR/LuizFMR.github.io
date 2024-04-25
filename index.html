@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>ProzNutri</title>
+    <script src="java.js"></script>
+</head>
+
+<body>
+    
+    <main class="principal">
+
+        <header class="cabecalho">
+            <h1>PROZ NUTRI</h1>
+            <div class="cabecalho-abas">
+                <p class="aba"><a href="#parte-inferior" class="cabecalholink">Benefícios</a></p>
+                <p class="aba"><a href="#parte-inferior2" class="cabecalholink">Avaliações</a></p>
+
+            </div>
+            <button class="cabecalho-bnt" onclick="mostrarAlerta()">INSCREVA-SE</button>
+        </header>
+
+        <section class="sessao-1">
+            <div class="sessao-1texto">
+                <h2 class="sessao-1manchete">Transforme sua Vida através da Nutrição Personalizada</h2>
+                <h3 class="sessao-1slogan">Alcance Seus Objetivos de Saúde com a Ajuda de Especialistas em
+                    Nutrição</h3>
+                <p class="sessao-1info">Na Proz Nutri, acreditamos que a nutrição é a
+                    base para uma vida saudável e vibrante. Oferecemos consultoria personalizada,
+                    guiando você em direção aos seus objetivos de saúde e bem-estar. Nossos
+                    especialistas em nutrição irão criar planos alimentares adaptados às suas
+                    necessidades individuais, ajudando você a alcançar resultados duradouros.</p>
+            </div>
+            <div class="formulario">
+                <h2 class="formtitulo">Calcule seu IMC</h2>
+                <p class="formtexto">Faça o cálculo e monte seu plano alimentício com a gente!</p>
+                <form>
+
+                    <p>Nome</p>
+                    <input type="text" placeholder="Digite o seu Nome">
+                    <p>E-mail</p>
+                    <input type="email" placeholder="Digite o seu email">
+                    <p>Número</p>
+                    <input type="number" placeholder="Digite o seu Número ">
+                    <p>Peso</p>
+                    <input type="number" placeholder="Digite o seu Peso ">
+                    <p>Altura</p>
+                    <input type="number" placeholder="Digite o sua Altura ">
+
+                </form>
+                <button class="formbtn" onclick="mostrarAlerta()">INSCREVA-SE</button>
+            </div>
+        </section>
+
+        <section class="sessao-2">
+
+                <div id="parte-inferior"></div>
+                <!-- <div class="beneficios"> -->
+                    
+                    <h1 class="titulo1">Benefícios</h1>
+                    <div class="sessao2alin">
+
+                        <div class="ben">
+                        <img src="../images/v1_74.png" alt="" class="figura1">
+                            <div class="beneficioquadro1">
+                                <p class="beneficio1">Melhora seu emocional com nossos planos</p>  
+                            </div>
+                        </div>
+
+                        <div class="ben">
+                            <img src="../images/v1_80.png" alt="" class="figura2">
+                            <div class="beneficioquadro2">
+                                <p class="beneficio2">Melhore sua energia, performance e qualidade de vida</p>
+                            </div>
+                        </div>
+
+                        <div class="ben">
+                            <img src="../images/v1_76.png" alt="" class="figura3">
+                            <div class="beneficioquadro3">
+                                <p class="beneficio3">Planos alimentares personalizados para suas metas e estilo de vida</p>
+                            </div>
+                        </div>
+
+                        <div class="ben">
+                            <img src="../images/v1_78.png" alt="" class="figura4">
+                            <div class="beneficioquadro4">
+                                <p class="beneficio4">Transforme sua relação com a comida e desenvolva hábitos saudáveis</p>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
+            
+
+        </section>
+
+        <section class="sessao-3">
+            <div id="parte-inferior2"></div>
+
+            <h1 class="titulo2">Avaliações</h1>
+
+            <div class="sessao3alin">
+
+            <div class="avaquadro1">
+                <p class="depoimento1">"O teste com a Proz Nutri mudou minha perspectiva sobre alimentação. Estou empolgada para começar!"</p>
+                <p class="nome1">-Marina</p>
+            </div>
+            <div class="avaquadro2">
+                <p class="depoimento2">"A Proz Nutri me deu orientações simples que já estão fazendo toda a diferença na minha saúde”</p>
+                <p class="nome2">-Alex</p>
+            </div>
+            <div class="avaquadro3">
+                <p class="depoimento3">"Recebi dicas práticas e fáceis de implementar. Recomendo!"</p>
+                <p class="nome3">-Marcos</p>
+            </div>
+            <div class="avaquadro4">
+                <p class="depoimento4">"A Proz Nutri foi incrível! Mal posso esperar para ver os resultados."</p>
+                <p class="nome4">-Thalita</p>
+            </div>
+            
+            </div>
+
+            <div class="frasealin">
+                <h2 class="frase">Faça seu teste hoje e dê o primeiro passo rumo a uma vida mais saudável!</h2>
+                <button class="cabecalho-bnt" onclick="mostrarAlerta()">INSCREVA-SE</button>
+            </div>
+
+        </section>
+
+        <footer class="rodape">
+            <h1 class="titrodape">PROZ NUTRI</h1>
+            <div class="footercorr">
+                <p class="contate"><a href="" class="rodapelink">Contate-nos</a></p>
+                <p class="sobre"><a href="" class="rodapelink">Sobre nós</a></p>
+                <p class="feedback"><a href="" class="rodapelink">Feedback</a></p>
+            </div>
+        </footer>
+    </main>
+<div id="cookie-message" style= "display:none;">Este site utiliza cookies para garantir a melhor experiência possível para você. Ao continuar navegando, você concorda com o uso de cookies. <button onclick="fecharAvisoCookies()">Fechar</button></div>
+</body>
+
+</html>
