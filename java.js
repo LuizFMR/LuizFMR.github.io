@@ -1,6 +1,6 @@
 function mostrarAlerta() {
     alert ("Cadastro feito com sucesso!");
-    window.alert(message);
+    window.alert(mensagem);
 }
 
 function fecharAvisoCookies() {
